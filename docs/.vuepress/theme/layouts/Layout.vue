@@ -6,11 +6,11 @@
           <!-- Hero Section -->
           <div class="hero-section">
             <div class="hero-content">
-              <h1>远哥的产品私塾</h1>
-              <p class="hero-subtitle">系统化的产品经理进阶平台</p>
+              <h1>{{ $page.frontmatter.title }}</h1>
+              <p class="hero-subtitle">{{ $page.frontmatter.description }}</p>
               <div class="hero-buttons">
-                <a href="/PMyuange/pm-basics/" class="primary-button">开始学习</a>
-                <a href="https://albertbouny.github.io/PMyuange/" class="secondary-button">GitHub</a>
+                <a :href="$withBase($page.frontmatter.actions[0].link)" class="primary-button">{{ $page.frontmatter.actions[0].text }}</a>
+                <a :href="$page.frontmatter.actions[1].link" class="secondary-button" target="_blank">{{ $page.frontmatter.actions[1].text }}</a>
               </div>
             </div>
           </div>
