@@ -1,0 +1,33 @@
+{
+  "name": "docs",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "docs:build": "vuepress build --clean-cache --clean-temp",
+    "docs:clean": "rimraf .vuepress/.temp .vuepress/.cache .vuepress/dist",
+    "docs:dev": "vuepress dev",
+    "docs:serve": "http-server .vuepress/dist -d 0"
+  },
+  "peerDependencies": {
+    "vuepress": "catalog:"
+  },
+  "dependencies": {
+    "@iconify/json": "catalog:",
+    "@simonwep/pickr": "^1.9.1",
+    "chart.js": "^4.4.7",
+    "echarts": "^5.6.0",
+    "flowchart.ts": "^3.0.1",
+    "http-server": "^14.1.1",
+    "mermaid": "^11.4.1",
+    "sass-embedded": "^1.83.1",
+    "swiper": "^11.2.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@vuepress/bundler-vite": "2.0.0-rc.19",
+    "@vuepress/client": "2.0.0-rc.19",
+    "vue": "catalog:",
+    "vuepress": "2.0.0-rc.19",
+    "vuepress-theme-plume": "workspace:*"
+  }
+}
