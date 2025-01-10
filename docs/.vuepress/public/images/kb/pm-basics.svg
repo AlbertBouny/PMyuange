@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="24" height="24" rx="4" fill="#3eaf7c"/>
-  <path d="M12 6C9.79 6 8 7.79 8 10C8 12.21 9.79 14 12 14C14.21 14 16 12.21 16 10C16 7.79 14.21 6 12 6ZM12 16C9.33 16 4 17.34 4 20V22H20V20C20 17.34 14.67 16 12 16Z" fill="white"/>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="200" height="200" fill="#f5f5f5"/>
+
+  <!-- Book shape -->
+  <path d="M40 40 h120 v120 h-120 v-120 z" fill="white" stroke="#3eaf7c" stroke-width="4"/>
+
+  <!-- Pages -->
+  <path d="M50 50 h100 M50 70 h100 M50 90 h80 M50 110 h100 M50 130 h90"
+        stroke="#3eaf7c" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- PM text -->
+  <text x="100" y="170" font-family="Arial" font-size="24" fill="#3eaf7c" text-anchor="middle" font-weight="bold">
+    PM基础
+  </text>
 </svg>

@@ -18,7 +18,7 @@ changelog: false
 
 但持续维护也在不断地消耗我额外的精力，你能请杯奶茶为我续命吗？
 
-![cat](/images/sponsor/cute-cat.jpg){width="64px"}
+![cat](/images/sponsor/cute-cat.svg){width="64px"}
 :::
 
 | :[bi:alipay]: AliPay                   | :[fa:wechat]: WeChat                      |

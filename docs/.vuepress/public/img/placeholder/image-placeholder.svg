@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="400" fill="#f5f5f5"/>
+
+  <!-- 图片图标 -->
+  <path d="M350 150 h100 v100 h-100 z" stroke="#999" fill="none" stroke-width="8"/>
+  <path d="M375 175 l25 25 l25 -25" stroke="#999" fill="none" stroke-width="8"/>
+  <circle cx="400" cy="200" r="10" fill="#999"/>
+
+  <!-- 文字 -->
+  <text x="400" y="300" font-family="Arial" font-size="24" fill="#999" text-anchor="middle">
+    图片占位符
+  </text>
+</svg>
